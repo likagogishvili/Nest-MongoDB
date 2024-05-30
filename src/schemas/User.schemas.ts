@@ -22,9 +22,6 @@ export class User {
 
   @Prop({ required: false })
   avatarUrl?: string;
-
-  @Prop({ required: false })
-  photo?: string;
 }
 
 export const userSchema = SchemaFactory.createForClass(User);

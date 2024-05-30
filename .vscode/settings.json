@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#FBC7D6",
+    "editor.selectionBackground": "#C0809C"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#FBC7D6"
+  }
+}
