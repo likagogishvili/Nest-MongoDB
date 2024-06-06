@@ -32,6 +32,10 @@ async function bootstrap() {
       .model-container{
         border: 2px solid #C0809C !important;
       }
+      // .opblock-summary-get{
+      //   background-color: #655A7C;
+      //   border: 2px solid #655A7C !important;
+      // }
     `,
     swaggerOptions: {
       tagsSorter: 'alpha',
