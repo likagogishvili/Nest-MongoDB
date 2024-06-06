@@ -3,11 +3,6 @@ import { IsEmail, IsNotEmpty, IsOptional, IsString } from 'class-validator';
 
 export class CreateUserDto {
   @IsNotEmpty()
-  @IsString()
-  @ApiProperty({ description: 'Username' })
-  username: string;
-
-  @IsNotEmpty()
   @IsEmail()
   @ApiProperty({ description: 'Email' })
   email: string;

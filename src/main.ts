@@ -23,13 +23,14 @@ async function bootstrap() {
     customCss: `
       .swagger-ui .topbar {
         background-color: #C0809C;
+        display:none;
       }
       .operation-filter-input {
         border: 2px solid #C0809C !important;
         color: #C0809C;
       }
       .model-container{
-        background-color: #FBC7D6 !important;
+        border: 2px solid #C0809C !important;
       }
     `,
     swaggerOptions: {
